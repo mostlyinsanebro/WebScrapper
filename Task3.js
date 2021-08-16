@@ -42,7 +42,7 @@ function dataExtractor(html)
 
     teamName=teamName.split("INNINGS")[0];
     console.log(teamName);
-    
+    console.log("->");
     
     let BatsmenTables=searchTool(TeamsArr[i]).find(".table.batsman tbody tr");
     for(let j=0;j<BatsmenTables.length;j++)
